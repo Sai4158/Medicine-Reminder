@@ -120,8 +120,8 @@ export default function Home() {
 
       const utter = new SpeechSynthesisUtterance(text);
       utter.lang = "en-IN";
-      utter.rate = 0.86;
-      utter.pitch = 1.1;
+      utter.rate = 0.9;
+      utter.pitch = 1;
       utter.voice = englishVoice;
 
       utter.onend = () => setSpeakingIndex(null);
