@@ -5,7 +5,7 @@ const medicineSlots = [
     timeRange: "6:00 AM – 9:14 AM",
     tablets: [
       { name: "Thyronorm 75 mg", desc: "for thyroid" },
-      { name: "Lasix 40 mg", desc: "removes extra fluid, lowers BP" },
+      { name: "Lasix 40 mg", desc: "removes extra fluid" },
     ],
   },
   {
